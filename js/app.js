@@ -4,10 +4,10 @@
 var $ = jQuery = require('jquery');
 require("bootstrap");
 var React = require('react');
-var ReactDOM = require('react-dom' + '');
+var ReactDOM = require('react-dom');
 
 /** @jsx React.DOM */
 ReactDOM.render(
-<div>Hello!</div>,
+  <div>Hello!</div>,
   document.getElementById('container')
 );
